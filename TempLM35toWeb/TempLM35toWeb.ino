@@ -28,8 +28,8 @@ int prevSensorValue;
 float avrSensorValue = 0;//change int to float *** first place
 
 SoftwareSerial wifiConnection(2, 3);//from pin 2 on UNO to pin TX on ESP8266 // from pin 3 on UNO to pin RX on ESP8266
-const String wifiSSID = "@@@@@@@@^";// this will be change depend local WIFI network//Ged Office1
-const String wifiPassword = "********";// this will be change depend local WIFI network//gedclients
+const String wifiSSID = "@@@@@@@@^";// this will be change depend local WIFI network
+const String wifiPassword = "********";// this will be change depend local WIFI network
 
 void setup() {
 	analogReference(INTERNAL);
